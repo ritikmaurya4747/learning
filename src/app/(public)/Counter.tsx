@@ -1,5 +1,6 @@
 'use client'
-import useCounter from './common/hooks/useCounter'
+
+import useCounter from "@/common/hooks/useCounter"
 
 const Counter = () => {
     const { count, increment, decrement, reset } = useCounter({ initialValue: 0, step: 2 })

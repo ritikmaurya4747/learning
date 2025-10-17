@@ -1,10 +1,11 @@
-import React from 'react'
-import Counter from './Counter'
+import UseReducerForm from './(public)/UseReducerForm'
 
 const page = () => {
   return (
     <div>
-      <Counter/>
+      {/* <Counter/> */}
+      {/* <UseReducer/> */}
+      <UseReducerForm/>
     </div>
   )
 }
